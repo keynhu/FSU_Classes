@@ -1,5 +1,5 @@
 % Linear Regression with Householder Transformation & Back Substitution
-% Input£º
+% Input:
 %   X: Feature, Matrix (m x n, m > n)
 %   y: Response, Vector (n x 1)
 % Output:
