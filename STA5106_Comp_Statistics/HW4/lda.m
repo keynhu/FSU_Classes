@@ -1,14 +1,15 @@
 % Dimension Reduction by Linear Discriminant Analysis (LDA)
 % Input:
-%   X: Data (n x m x k) -- n = #Dim, m = #Groups, k = #Samples (per group)
+%   X: Data (n x m x k). -- n = #Dim, m = #Groups, k = #Samples (per group)
+%   d: Number of LDA base.
 % Output:
-%   U1: First principal component (first column of U)
-%   Z: Projection of X by U1
+%   U: :LDA base matrix.
+%   Z: Projection of X by the first d columns of U.
 
 % load hw4_2_data.mat
 
-function [U1,Z] = lda(X)
-    [n,m,k] = size(X); 
+function [U,Z] = lda(X, d)
+    [~,m,k] = size(X); 
     mu = mean(X,3); % Mean of each class, (n x m)
     tot_mu = mean(mu,2); % Total mean (n x 1)
     S_B = 0;
@@ -28,11 +29,11 @@ function [U1,Z] = lda(X)
 %        S_W = S_W + (k-1) * cov(squeeze(X(:,i,:))');
 %     end
     [U,~] = eigs(S_B, S_W);
-    U1 = U(:,1);
-    Z = zeros(size(X));
+    U1 = U(:,1:d);
+    Z = zeros(size(X,2), size(X,3));
     for i = 1:m
         for j = 1:k
-            Z(:,i,j) = project(X(:,i,j), U, 1);
+            Z(i,j) = U1' * X(:,i,j);
         end
     end
 end
