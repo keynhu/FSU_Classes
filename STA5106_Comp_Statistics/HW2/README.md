@@ -1,7 +1,7 @@
-Solve linear regression by 1) Householder Transformation; 2) Then Back-Substitution.  
+Solve linear regression by 1) First Householder Transformation; 2) Then Back-Substitution.  
 
-house.m: Input vector x, output Householder vector v.  
-rowhouse.m: Input matrix X, output first-column Householder-transformed matrix X_new.  
-householder.m: Input matrix X, output Householder-transformed matrix X_new.  
-backsub.m: Input upper-trg matrix X and vector y, output b, solution to y=Xb.  
-functions.py: All functions above, written in Python.
+**house.m:** Function. Compute Householder vector for the input vector.  
+**rowhouse.m:** Function. Compute first-column-Householder-transformed matrix for the input matrix.  
+**householder.m:** Function. Compute first-column-Householder-transformed matrix for the input matrix.  
+**backsub.m:** Function. Use back-substitution to solve y=Xb, where X is an upper-triangular matrix.  
+**functions.py:** All functions above, written in Python.
