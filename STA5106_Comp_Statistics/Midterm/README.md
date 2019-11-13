@@ -3,7 +3,6 @@ Human face recognition with dimension reduction techniques.
 (Dimension Reduction: PCA, LLE, LDA, Simple.)  
 (Classification: NN, kNN.)  
 
-**cumvar.mat:** Cumulative variances w.r.t. #PCs (from 1 to 40).  
 **ImgCls_LDA_NN.m:** Function. Reduce data dimension with Linear Discriminant Analysis (LDA), then classify with NN.  
 **ImgCls_LDA_kNN.m:**	Function. Reduce data dimension with LDA, then classify with kNN (k given).  
 **ImgCls_LLE_NN.m:** Function. Reduce data dimension with Locally Linear Embedding (LLE) (#Neighbor K given), then classify with NN.  
@@ -22,3 +21,4 @@ Human face recognition with dimension reduction techniques.
 **Plot_SameClass.m:** Given a test image, plot the 5 train images in its class.  
 **image_vec_show.m:** Function. Given a image vector (dim 644), show them as a 28x23 image.  
 **images_plot.m:** Function. Plot several images on one row, with specific topic above each image.
+**cumvar.mat:** Cumulative variances w.r.t. #PCs (from 1 to 40).  
