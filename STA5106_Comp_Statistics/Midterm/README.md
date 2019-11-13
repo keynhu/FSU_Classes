@@ -21,6 +21,6 @@ Human face recognition with dimension reduction techniques.
 **Plot_SameClass.m:** Given a test image, plot the 5 train images in its class.  
 **cumvar.mat:** Cumulative variances w.r.t. #PCs (from 1 to 40).  
 **image_vec_show.m:** Function. Given a image vector (dim 644), show them as a 28x23 image.  
-**images_plot.m:** Function. Plot several images on one row, with specific topic above each image.
+**images_plot.m:** Function. Plot several images on one row, with specific topic above each image.  
 **mid_test.mat:** Test dataset (644 x 200), 40 classes, 5 samples per class.  
 **mid_train.mat:** Train dataset (644 x 200), 40 classes, 5 samples per class.  
