@@ -4,8 +4,9 @@ This repository stores all my codes in STA5106 (Computation Methods in Statistic
 **HW2:** Solve linear regression by 1) Householder Transformation; 2) Back-Substitution.  
 **HW3:** Linear regression and PCA.  
 **HW4:** PCA and LDA visualizations.  
-**HW5:** Solve the root-finding problem with Simple Iteration, and Newton-Raphson Method.  
+**HW5:** Solve root-finding problem with Simple Iteration, and Newton-Raphson Method.  
 **HW6:** Implement EM algorithm in two example problems.  
+**Midterm:** Human face recognition with dimension reduction techniques (PCA, LLE, LDA, Simple Projection).  
 **HW7:** Implement K-means algorithm on several datasets.  
 **HW8:** Random Number Generation (RNG): 1) Psuedo-random numbers from Uniform(0,1); 2) Inverse Transformation.  
 **HW9:** Estimate integral with Monte Carlo (MC) methods.  
