@@ -1,4 +1,4 @@
-Solve linear regression by 1) First Householder Transformation; 2) Then Back-Substitution.  
+Solve linear regression by 1) Householder Transformation; 2) Back-Substitution.  
 
 **house.m:** Function. Compute Householder vector for the input vector.  
 **rowhouse.m:** Function. Compute first-column-Householder-transformed matrix for the input matrix.  
