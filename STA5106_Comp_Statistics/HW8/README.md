@@ -1,4 +1,4 @@
-Random Number Generation (RNG).
+Random Number Generation (RNG): 1) Psuedo-random numbers from Uniform(0,1); 2) Inverse Transformation.  
 
 **main_1_2.m:** Generate Uniform(0, 1) with Congruential Generators given m, a.  
 **main_3.m:** Generate Weibull(1, 0.5) with Inverse Transform method.  
