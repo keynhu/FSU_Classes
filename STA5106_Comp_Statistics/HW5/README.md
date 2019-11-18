@@ -1,4 +1,4 @@
-Solve the root-finding problem with Simple Iteration, and Newton-Raphson Method.  
+Solve root-finding problem with Simple Iteration, and Newton-Raphson Method.  
 
 **newton.m**: Function. Newton-Raphson method, given f(x), f'(x), x0 (initial point), eps (threshold).  
 **simple_iter.m**: Function. Simple iteration method, given f(x), x0 (initial point), eps (threshold).  
