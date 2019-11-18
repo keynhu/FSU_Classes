@@ -1,4 +1,4 @@
-Implement K-means algorithm on several datasets.
+K-means algorithm on several datasets.
 
 **main.m:** Implement K-means on four datasets: Two from HW6 and two from HW7.  
 **kmeans.m:** Function. Do K-means clustering, given data and a specific K. Return clustered labels and evolution sequence of SSE (Sum of Squared Error).  
